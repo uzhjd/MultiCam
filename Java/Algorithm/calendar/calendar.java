@@ -1,4 +1,4 @@
-package calendarAlgorithm;
+package calendar;
 
 import java.util.*;
 
@@ -18,7 +18,7 @@ import java.util.*;
  *
  * */
 
-public class Exam1 {
+public class calendar {
 
     int leapYear(int year) {
         int day = 0;

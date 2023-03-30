@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* 모든 여백을 0으로 맞추지 않으면 이상해질 수 있음.*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#header, #footer, #contents {
+	width: 80%;
+	margin: 10px auto;
+	border: 2px solid gray;
+	text-align: center;
+}
+
+#header, #footer {
+	height: 100px;
+	line-height: 100px;
+}
+
+#contents {
+	height: 400px;
+	line-height: 50px;
+}
+
+#left, #right {
+	width: 50%;
+	height: 400px;
+}
+
+/*
+	float를 지정해줄때 width를 항상 같이 해줘야 함.
+	float를 만들어주면 해제도 해줘야 함.(다음 태그부터) -> footer
+*/
+#left {
+	float: left;
+	border-right: 2px solid gray;
+}
+
+#right {
+	float: right;
+}
+
+#footer {
+	clear: both;
+}
+
+

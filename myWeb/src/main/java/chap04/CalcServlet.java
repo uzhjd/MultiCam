@@ -1,5 +1,5 @@
 package chap04;
-
+// private OK?
 import java.io.IOException;
 import java.io.PrintWriter;
 

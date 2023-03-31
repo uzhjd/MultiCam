@@ -8,7 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-// test test 11111111111111111111111111
+
 @WebServlet(description = "계산 결과 서블릿", urlPatterns = { "/CalcServlet" })
 public class CalcServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

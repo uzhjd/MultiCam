@@ -1,7 +1,6 @@
 package chap02;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.*;
 
 @Configuration
 public class AppContext {
@@ -12,6 +11,5 @@ public class AppContext {
 		g.setFormate("%s, 안녕하세요.");
 		
 		return g;
-		// hello hello check!!
 	}
 }

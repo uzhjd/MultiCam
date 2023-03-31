@@ -1,7 +1,7 @@
 package chap03.assembler;
 
-import chap03.model.*;
 import chap03.Service.*;
+import chap03.model.MemberDao;
 
 public class Assembler {
 	private MemberDao memberDao;
@@ -26,5 +26,4 @@ public class Assembler {
 	public ChangePasswordService getPwdSvc() {
 		return pwdSvc;
 	}
-	
 }

@@ -5,7 +5,6 @@ public class Greeter {
 	
 	
 	public Greeter() {
-		
 	}
 	
 	public String greet(String guest) {
